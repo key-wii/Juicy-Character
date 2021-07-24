@@ -30,6 +30,8 @@ if (place_meeting(x, y, obj_bull_e)) {
 	var ddir = direction + 180;
 	with (obj_bull_e) {
 		if (place_meeting(x,y,other.id)) {
+			hp -= 1;
+			if (hp > 0) exit;
 			direction = ddir;
 			image_angle = direction;
 			speed *= 2;

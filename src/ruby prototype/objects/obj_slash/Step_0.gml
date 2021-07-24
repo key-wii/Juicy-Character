@@ -19,20 +19,7 @@ if (place_meeting(x, y, obj_e_parent)) {
 	}
 }
 
-if (place_meeting(x, y, obj_bull_e)) {
-	var ddir = direction;
-	with (obj_bull_e) {
-		if (place_meeting(x,y,other.id)) {
-			x += lengthdir_x(30, ddir);
-			y += lengthdir_y(30, ddir);
-			direction = ddir;
-			image_angle = direction;
-			speed = clamp(speed * 2, 10, sprite_width * 1.5);
-			instance_change(obj_bull_deflected, true);
-			wrap = false;
-		}
-	}
-}
+coll_destroy_bull_e();
 
 if (place_meeting(x, y, obj_wall)) {
 	with (obj_wall) {

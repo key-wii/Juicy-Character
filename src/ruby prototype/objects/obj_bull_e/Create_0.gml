@@ -6,3 +6,5 @@ wrap = true;
 alarm_set(1, 65);
 
 pow = 1;
+
+hp = 2;
