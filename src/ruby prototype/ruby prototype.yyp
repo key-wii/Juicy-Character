@@ -70,6 +70,7 @@
     {"id":{"name":"obj_player_hook","path":"objects/obj_player_hook/obj_player_hook.yy",},"order":10,},
     {"id":{"name":"obj_e_move_parent","path":"objects/obj_e_move_parent/obj_e_move_parent.yy",},"order":2,},
     {"id":{"name":"snd_slash2","path":"sounds/snd_slash2/snd_slash2.yy",},"order":13,},
+    {"id":{"name":"msc_music","path":"sounds/msc_music/msc_music.yy",},"order":16,},
     {"id":{"name":"spr_hurt","path":"sprites/spr_hurt/spr_hurt.yy",},"order":44,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"obj_surround_outer","path":"objects/obj_surround_outer/obj_surround_outer.yy",},"order":7,},
